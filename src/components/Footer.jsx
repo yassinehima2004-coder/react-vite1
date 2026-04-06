@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <footer>
-        <h1>CopyWrite Yassine</h1>
+    <footer class="p-4 bg-gray-800 text-white text-center ">
+      <p>&copy; 2026 My Website. All rights reserved.</p>
     </footer>
   );
 }
