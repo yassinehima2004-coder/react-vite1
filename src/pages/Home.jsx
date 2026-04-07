@@ -1,9 +1,22 @@
+
+
 function Home() {
   return (
-    <div class="text-red-700 h-[80vh] flex flex-col items-center justify-center">
-      <h1 class="text-3xl font-bold">Welcome to the Home Page</h1>
-      <p class="mt-4 text-lg">This is the home page of our React application.</p>
+    <>
+    <div class="text-white h-[70vh] flex flex-col items-center justify-center bg-[url(/assets/bgHero.jpg)] bg-no-repeat bg-cover bg-center">
+      <h1 class="text-9xl font-bold">Home</h1>
+      
     </div>
+    <div className="text-center">
+      <h1 className="text-5xl font-bold p-4">My Services</h1>
+      <div className="bg-blue-100">
+        <div className="h-[500px]">
+
+        </div>
+      </div>
+      
+    </div>
+    </>
   );
 }
 
