@@ -11,14 +11,14 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full shadow-md  bg-gray-800 text-white relative">
+    <header className="w-full   bg-slate-900 text-blue-500 relative">
       <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
         <h1 className="text-5xl font-bold">LOGO</h1>
 
         {/* Desktop */}
         <nav className="hidden lg:flex gap-6 text-lg">
           {menuItems.map((item) => (
-            <Link key={item.name} to={item.path} className="hover:underline">
+            <Link key={item.name} to={item.path} className="text-slate-300 hover:underline hover:text-blue-500">
               {item.name}
             </Link>
           ))}
@@ -30,17 +30,17 @@ export default function Header() {
           className="lg:hidden flex flex-col gap-1.5 z-50 cursor-pointer"
         >
           <span
-            className={`block h-0.5 w-6 bg-white transition-all duration-300 ${
+            className={`block h-[3px] w-[30px] bg-white transition-all duration-300 ${
               isOpen ? "rotate-45 translate-y-2" : ""
             }`}
           />
           <span
-            className={`block h-0.5 w-6 bg-white transition-all duration-300 ${
+            className={`block h-[3px] w-[30px] bg-white transition-all duration-300 ${
               isOpen ? "opacity-0" : ""
             }`}
           />
           <span
-            className={`block h-0.5 w-6 bg-white transition-all duration-300 ${
+            className={`block h-[3px] w-[30px] bg-white transition-all duration-300 ${
               isOpen ? "-rotate-45 -translate-y-2" : ""
             }`}
           />
