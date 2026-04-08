@@ -57,7 +57,7 @@ export default function Header() {
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-gray-800 shadow-lg text-center pt-9 transform transition-all duration-300 z-40 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-slate-900 shadow-lg text-center text-slate-300 pt-9 transform transition-all duration-300 z-40 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
