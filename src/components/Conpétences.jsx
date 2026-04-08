@@ -8,6 +8,7 @@ function Conpétences() {
         { title: "JavaScript", description: ""},
         { title: "React.js", description: ""},
         { title: "Node.js", description: ""},
+        { title: "Next.js", description: ""},
     ];
 
   return (
