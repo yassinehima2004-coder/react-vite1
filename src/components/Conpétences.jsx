@@ -12,7 +12,7 @@ function Conpétences() {
 
   return (
     <>
-    <div className="text-center mb-80 flex flex-col  gap-4 items-center justify-center">
+    <div className="text-center mb-50 flex flex-col  gap-4 items-center justify-center">
       <h1 className="text-5xl font-bold p-6 text-slate-950">Mes Conpétences</h1>
       <div className="flex gap-6 justify-center flex-wrap max-w-7xl">
         {conpétences.map((item) => (

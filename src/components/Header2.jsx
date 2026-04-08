@@ -11,9 +11,9 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full   bg-slate-900 text-blue-500 relative">
+    <header className="w-full   border-b border-slate-800 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 text-blue-500 relative">
       <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
-        <h1 className="text-5xl font-bold">LOGO</h1>
+        <h1 className="text-5xl font-bold">H.Yassine</h1>
 
         {/* Desktop */}
         <nav className="hidden lg:flex gap-6 text-lg">
